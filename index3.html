@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.8.1/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2025.8.1/core.js"></script>
+    <href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Simple Average Finder</title>
+    <style type="text/css">
+
+    .yuh{
+        background-color: rgb(202, 93, 10);
+        border: 3px solid;
+        border-color: burlywood;
+        margin-top: 100px;
+        margin-left: 150px;
+         margin-right: 150px;
+    }
+
+    body{
+        background-image: url(https://i.pinimg.com/736x/8c/31/b1/8c31b1f7e1f96d8b23baf6a23dbb52f4.jpg);
+        background-repeat: no-repeat;
+	    background-size: cover;
+	    background-attachment: fixed;
+    }
+
+    h1{
+        color:goldenrod;
+    }
+     h3{
+        color:goldenrod;
+     }
+
+
+    </style>
+</head>
+<body>
+<center>
+<div class="yuh">
+    <h1>Simple Average Finder</h1>
+    <br>
+    <label>Score No.1</label><br>
+    <input type="text" id="Score1" placeholder="Enter Your 1st Score..." class="form-control" style="text-align: center; font-weight: bold; color: chocolate;"/>
+    <br><br>
+    <label>Score No.2</label><br>
+    <input type="text" id="Score2" placeholder="Enter Your 2nd Score" class="form-control" style="text-align: center; font-weight: bold; color: chocolate;"/><br><br>
+    <button type="submit" py-click="ave_numbers" class="form-control" id="avebutton">Compute</button><br>
+    <br><br>
+    <label>Average Computed</label><br>
+    <div id="average"></div><br>
+    <label>Passing Grades?</label>
+    <div id="pass"></div><br>
+ </div>
+ </center>
+
+<script type="py" src="main3.py"></script>
+
+</body>
+</html>
